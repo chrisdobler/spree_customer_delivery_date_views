@@ -3,11 +3,11 @@ Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'spree_customer_delivery_date_views'
   s.version     = '3.1.1'
-  s.summary     = 'TODO: Add gem summary here'
-  s.description = 'TODO: Add (optional) gem description here'
+  s.summary     = 'Adds column to orders page for delivery date'
+  s.description = 'Adds column to orders page for delivery date'
   s.required_ruby_version = '>= 2.1.0'
 
-  # s.author    = 'You'
+  s.author    = 'Chris Dobler'
   # s.email     = 'you@example.com'
   # s.homepage  = 'http://www.spreecommerce.com'
   s.license = 'BSD-3'
