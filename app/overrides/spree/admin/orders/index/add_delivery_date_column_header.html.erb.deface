@@ -1,0 +1,4 @@
+<!-- insert_top '[data-hook="admin_orders_index_headers"]' -->
+<% if Spree::Config['customer_delivery_date_enabled'] %>
+  <th><%= sort_link @search, :customer_delivery_date, Spree.t(:deliver_on) %></th>
+<% end %>

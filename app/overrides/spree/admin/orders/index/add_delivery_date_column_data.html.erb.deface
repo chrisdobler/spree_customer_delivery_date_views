@@ -1,0 +1,6 @@
+<!-- insert_top '[data-hook="admin_orders_index_rows"]' -->
+<td>
+	<% if order.customer_delivery_date %>
+  <%= order_time(order.customer_delivery_date) %>
+  <% end %>
+</td>
